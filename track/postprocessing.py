@@ -26,7 +26,7 @@ class Job:
     BRACKET_BUFFER = 10
     WINDOW_NAME = "window"
     VIDEO_OUTPUT_FPS = 30
-    SECONDS_PER_FRAME = 4
+    SECONDS_PER_FRAME = 1
 
     def __init__(self, data):
         logger.info(data)
